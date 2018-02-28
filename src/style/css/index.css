@@ -22,21 +22,6 @@
 .search-con .iconfont{
   padding-right: .2rem;
 }
-/*.main{
-  width: 100%;
-  margin-bottom: 1.05rem;
-  margin-top: 1rem;
-}
-.icons{
-  display: flex;
-  height: 0;
-  width: 100%;
-  overflow: hidden;
-  padding-bottom: 40%;
-}
-.icons-small{
-  flex: 25%;
-}*/
 .index-nav{
   height: 2.1rem;
   width: 100%;
@@ -44,4 +29,173 @@
 }
 .index-img{
   width: 100%;
+}
+.icons{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+  height: 3.54rem;
+  text-align: center;
+  background: #fff;
+}
+.icons-con{
+  flex: 20%;
+  height: 50%;
+}
+.icons-img{
+  width: .9rem;
+  height: .9rem;
+  padding: .2rem 0;
+}
+.newuser{
+  width: 100%;
+  height: 1.98rem;
+  background: #fff;
+}
+.newuser-img{
+  width: 96%;
+  padding: .1rem 2%;
+}
+.few{
+  display: flex;
+  height: 2.8rem;
+  background: #fff;
+}
+.few div{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1% 2%;
+  padding: .25rem 0 0 .3rem;
+  width: 50%;
+  background: #f5f5f5;
+}
+.few .few-left{
+  margin-right: .05rem;
+}
+.few .few-right{
+  margin-left: .05rem;
+}
+.few-title{
+  width: 100%;
+  height: .4rem;
+  line-height: .4rem;
+  font-size: .36rem;
+  font-weight: 700;
+}
+.few-title-one{
+  color: #e81919;
+}
+.few-title-two{
+  color: #333;
+}
+.few-two{
+  width: 100%;
+  height: .4rem;
+  line-height: .4rem;
+  margin: .15rem 0;
+  color: #777;
+  font-size: .3rem;
+}
+.few-three{
+  width: 100%;
+  height: .25rem;
+  line-height: .25rem;
+  font-size: .26rem;
+}
+.people{
+  color: #e81919;
+  font-weight: 600;
+}
+.show{
+  color: #000;
+  font-weight: 600;
+}
+.few-three-p{
+  color: #af8260;
+  font-weight: 700;
+}
+.few-img-con{
+  position: absolute;
+  bottom: -0.24rem;
+  right: 0;
+  width: 2.4rem;
+  height: 1.6rem;
+  z-index: 20;
+}
+.few-img{
+  width: 100%;
+}
+.showlist-title{
+  position: relative;
+  height: .72rem;
+  line-height: .72rem;
+  width: 100%;
+  padding: .3rem 0 .1rem;
+  text-align: center;
+  background: #fff;
+}
+.showlist-title:before, .showlist-title:after {
+  content: '';            /*CSS伪类用法*/
+  position: absolute;     /*定位背景横线的位置,根据父元素定位*/
+  top: 60%;
+  background: #999;       /*宽和高做出来的背景横线*/
+  width: 6%;
+  height: .02rem;
+}
+.showlist-title:before{
+    left: 32%;        /*调整背景横线的左右距离*/
+}
+.showlist-title:after {
+    right: 32%;
+}
+.showlist{
+  background: #fff;
+  background: #fff;
+  margin-bottom: 1.05rem;
+}
+.showlist-container{
+  display: flex;
+  flex-direction: column;
+  height: 2.42rem;
+  padding: 0.3rem 0;
+  margin: 0 2%;
+}
+.showlist-con{
+  display: flex;
+  height: 1.3rem;
+  width: 100%;
+}
+.showlist-top-left{
+  width: 1.3rem;
+  background: orange;
+}
+.showlist-top-right{
+  width: 5.65rem;
+  margin-left: .25rem;
+  background: pink;
+}
+.showlist-bottom{
+  width: 100%;
+  height: 1.12rem;
+  background: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.borders{
+  width: 100%;
+  border-bottom: .008rem solid #f5f5f5;
 }

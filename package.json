@@ -26,6 +26,10 @@
     "/restapi/member/v1/discover":{
       "target": "https://h5.ele.me",
       "changeOrigin": true
+    },
+    "/restapi/shopping/v3/restaurants":{
+      "target": "https://h5.ele.me",
+      "changeOrigin": true
     }
   }
 }
